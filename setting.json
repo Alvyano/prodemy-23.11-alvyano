@@ -1,0 +1,8 @@
+{
+    "customSettings": {
+        "fontFamily": "Your Custom Font, 'Courier New', monospace",
+        "lineHeight": 24,
+        "fontSize": 14
+    },
+    "colorTheme": "Material Theme Dark"
+}
