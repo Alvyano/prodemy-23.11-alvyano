@@ -126,7 +126,7 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
-    max-width: 1500px;
+    max-width: 2500px;
     margin: auto;
     padding: 100px;
 }
@@ -306,10 +306,21 @@ header {
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    /* Mengubah arah layout menjadi kolom pada perangkat seluler */
     align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    /* Menengahkan teks di dalam footer */
+    /* Menambahkan padding agar lebih mudah dibaca pada perangkat seluler */
+    padding: 20px;
+    gap: 20px;
+    /* Menambahkan jarak antara elemen-elemen pada perangkat seluler */
+}
+
+.footer-box {
+    text-align: center;
+    /* Menengahkan teks di dalam setiap kotak footer */
 }
 
 .footer-box h2 {
@@ -341,4 +352,114 @@ header {
 .social a .bx:hover {
     background: #bc9667;
     transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        /* Mengubah arah layout menjadi kolom */
+        align-items: center;
+        padding: 10px;
+        /* Mengurangi padding pada perangkat seluler */
+    }
+    .navbar {
+        margin-top: 20px;
+        /* Menambah margin atas pada navbar */
+    }
+    .navbar a {
+        margin-bottom: 10px;
+        /* Menambah margin bawah pada setiap link navbar */
+    }
+    #menu-icon {
+        display: block;
+        /* Menampilkan icon menu pada perangkat seluler */
+    }
+    /* Menambahkan margin antara elemen header pada perangkat seluler */
+    .navbar li {
+        margin-bottom: 10px;
+    }
+    logo img {
+        width: 30px;
+    }
+    section {
+        padding: 70px 100px;
+    }
+    .home-container {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        max-width: 500px;
+        margin: auto;
+        padding: 50px;
+    }
+    .home-text h1 {
+        font-size: 1.5rem;
+        color: #fff;
+        letter-spacing: 25px;
+        text-align: justify;
+    }
+    .home-text p {
+        font-size: 0.8rem;
+        color: rgb(255, 255, 255);
+        text-align: justify;
+    }
+    .btn {
+        padding: 5px 20px;
+        border-radius: 0.3rem;
+        background: white;
+        color: rgb(98, 89, 107);
+    }
+    .about {
+        display: grid;
+        gap: 1.5rem;
+    }
+    .about-img img {
+        border-radius: 2rem;
+    }
+    .about-text h2 {
+        font-size: 2rem;
+    }
+    .about-text p {
+        font-size: medium;
+        text-align: justify;
+    }
+    .heading {
+        text-align: center;
+        padding-top: 20%;
+        padding: 100%;
+    }
+    .heading h2 {
+        font-size: 1.8rem;
+        padding-top: 0%;
+        padding: 10%;
+    }
+    .product {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 170vh;
+    }
+    .products-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer {
+        padding: 10px;
+        /* Mengurangi padding pada perangkat seluler */
+    }
+    .footer-box h2 {
+        font-size: 1rem;
+        /* Mengurangi ukuran font pada perangkat seluler */
+    }
+    .footer-box p {
+        font-size: 0.8rem;
+        /* Mengurangi ukuran font pada perangkat seluler */
+    }
+    .social a .bx {
+        font-size: 20px;
+        /* Mengurangi ukuran ikon media sosial pada perangkat seluler */
+    }
 }
