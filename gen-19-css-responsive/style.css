@@ -374,7 +374,6 @@ header {
         display: block;
         /* Menampilkan icon menu pada perangkat seluler */
     }
-    /* Menambahkan margin antara elemen header pada perangkat seluler */
     .navbar li {
         margin-bottom: 10px;
     }
@@ -406,8 +405,8 @@ header {
     .btn {
         padding: 5px 20px;
         border-radius: 0.3rem;
-        background: white;
-        color: rgb(98, 89, 107);
+        background: rgb(192, 106, 26);
+        color: rgb(0, 91, 133);
     }
     .about {
         display: grid;
