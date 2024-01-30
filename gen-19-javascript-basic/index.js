@@ -13,8 +13,6 @@ function luasSegitiga(alas, tinggi) {
 function luasLingkaran(jariJari) {
     return Math.PI * Math.pow(jariJari, 2);
 }
-
-// Contoh penggunaan untuk setiap fungsi
 var sisiPersegi = 5;
 var panjangPersegiPanjang = 8;
 var lebarPersegiPanjang = 2;
