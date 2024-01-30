@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="font-sans bg-gray-100">
+
+    <nav class="bg-black p-4 text-white fixed h-15 w-full top-0">
+        <div class="container mx-auto flex justify-end">
+            <a href="#" class="font-bold mr-4">Home</a>
+            <a href="#" class="mr-4">About</a>
+            <a href="#" class="mr-4">Product</a>
+        </div>
+    </nav>
+
+    <div class="container mx-auto p-8 mt-8 bg-white">
+
+        <!-- Product Image and Information -->
+        <div class="flex flex-col md:flex-row sm:flex-row mb-8">
+            <div class="w-full sm:w-1/2">
+                <img id="mainImage" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/AREN-FRAPPE-600x375.png" alt="Product Image" class="w-full h-auto rounded-lg shadow-md">
+            </div>
+            <div class="md:w-1/2 sm:w-1/2 mt-4 md:mt-0 md:ml-8 sm:ml-8 sm:mt-0">
+                <h2 class="text-3xl sm:text-2xl font-semibold text-gray-800 mb-4">Kopi Susu Gula Aren</h2>
+                <p class="text-gray-700 mb-4 text-justify">Nikmati pengalaman kopi yang unik dengan Kopi Susu Gula Aren kami. Minuman ini dibuat dengan hati-hati menggunakan biji kopi pilihan yang dipanggang secara sempurna untuk menghasilkan rasa kopi yang kaya dan mendalam. Susu yang digunakan
+                    memberikan kelembutan dan kekentalan yang sempurna, menciptakan harmoni cita rasa yang memanjakan lidah. <br> <br> Sentuhan istimewa dari gula aren memberikan tambahan kelezatan dengan kelembutan rasa manis alami. Gula aren tidak hanya
+                    memberikan manis yang lezat, tetapi juga memberikan sentuhan eksotis dan kaya nutrisi.</p>
+                <div class="sm:text-2xl text-gray-800 font-bold mb-4 ">Rp. 18.000</div>
+                <button class="transition ease-in-out delay-150 bg-gray-100 text-gray-700 px-6 py-2 rounded-full shadow-lg hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 hover:text-white focus:outline-none focus:shadow-outline">
+                    Buy
+                </button>
+
+            </div>
+        </div>
+
+        <!-- Variant Images -->
+        <div class="custom-flex">
+            <img onclick="changeImage('https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/AREN-FRAPPE-600x375.png')" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/AREN-FRAPPE-600x375.png" alt="Variant 1" class="w-auto h-auto cursor-pointer rounded-lg">
+            <img onclick="changeImage('https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/CAPPUCCINO-600x375.png')" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/CAPPUCCINO-600x375.png" alt="Variant 2" class="w-auto h-auto cursor-pointer rounded-lg">
+            <img onclick="changeImage('https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/VANILLA-LATTE-600x375.png')" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/VANILLA-LATTE-600x375.png" alt="Variant 3" class="w-auto h-auto cursor-pointer rounded-lg">
+            <img onclick="changeImage('https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/OATMILK-LATTE-600x375.png')" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/OATMILK-LATTE-600x375.png" alt="Variant 4" class="w-auto h-auto cursor-pointer rounded-lg">
+        </div>
+
+        <!-- Produk Lainnya -->
+        <h2 class="text-3xl sm:text-2xl font-semibold text-gray-800 mb-4 mt-8">Produk Lainnya</h2>
+
+        <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+            <!-- produk 1 -->
+            <div class="product-card">
+                <img src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/CAPPUCCINO-600x375.png" alt="Product 1" class="w-auto h-auto rounded-lg">
+                <h3 class="text-xl font-semibold text-gray-800 mt-2">Cappucino</h3>
+                <p class="text-gray-700 mb-2">Rp. 22.000</p>
+                <button class="transition ease-in-out delay-150 bg-gray-100 text-gray-700 px-6 py-2 rounded-full shadow-lg hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 hover:text-white focus:outline-none focus:shadow-outline">
+                    Buy
+                </button>
+            </div>
+
+            <!-- produk 2 -->
+            <div class="product-card">
+                <img src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/05/COCONUT-MATCHA-SHAKE-1-600x375.jpg" alt="Product 2" class="w-auto h-auto rounded-lg">
+                <h3 class="text-xl font-semibold text-gray-800 mt-2">Matcha</h3>
+                <p class="text-gray-700 mb-2">Rp. 24.000</p>
+                <button class="transition ease-in-out delay-150 bg-gray-100 text-gray-700 px-6 py-2 rounded-full shadow-lg hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 hover:text-white focus:outline-none focus:shadow-outline">
+                    Buy
+                </button>
+            </div>
+
+            <!-- produk 3 -->
+            <div class="product-card">
+                <img src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/STRAWBERRY-SHAKE-600x375.png" alt="Product 3" class="w-auto h-auto rounded-lg">
+                <h3 class="text-xl font-semibold text-gray-800 mt-2">Red Velvet</h3>
+                <p class="text-gray-700 mb-2">Rp. 24.000</p>
+                <button class="transition ease-in-out delay-150 bg-gray-100 text-gray-700 px-6 py-2 rounded-full shadow-lg hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 hover:text-white focus:outline-none focus:shadow-outline">
+                    Buy
+                </button>
+            </div>
+
+            <!-- produk 4 -->
+            <div class="product-card">
+                <img src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/BLACK-ROCK-600x375.png" alt="Product 4" class="w-auto h-auto rounded-lg">
+                <h3 class="text-xl font-semibold text-gray-800 mt-2">Taro</h3>
+                <p class="text-gray-700 mb-2">Rp. 24.000</p>
+                <button class="transition ease-in-out delay-150 bg-gray-100 text-gray-700 px-6 py-2 rounded-full shadow-lg hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 hover:text-white focus:outline-none focus:shadow-outline">
+                    Buy
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-red-800 text-white text-center py-4">
+        <p>&copy; 2024 ITTS COFFEE. All rights reserved.</p>
+    </footer>
+    <script>
+        function changeImage(newSrc) {
+            document.getElementById('mainImage').src = newSrc;
+        }
+    </script>
+</body>
+
+
+</html>
