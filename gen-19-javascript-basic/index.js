@@ -17,7 +17,7 @@ function luasLingkaran(jariJari) {
 // Contoh penggunaan untuk setiap fungsi
 var sisiPersegi = 5;
 var panjangPersegiPanjang = 8;
-var lebarPersegiPanjang = 6;
+var lebarPersegiPanjang = 2;
 var alasSegitiga = 10;
 var tinggiSegitiga = 7;
 var jariJariLingkaran = 4;
