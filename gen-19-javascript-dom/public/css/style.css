@@ -1860,6 +1860,9 @@ video {
     --tw-bg-opacity: 1;
     background-color: rgb(163 163 163 / var(--tw-bg-opacity));
 }
+#mainImage {
+    transition: opacity 0.3s ease-in-out;
+}
 @media (min-width: 640px) {
     .sm\:grid-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr));

@@ -41,12 +41,12 @@
             </div>
         </div>
 
-        <!-- Variant Images -->
+        <!-- Variant Images (Thumbnails) -->
         <div class="custom-flex">
-            <img onclick="changeImage('https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/AREN-FRAPPE-600x375.png')" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/AREN-FRAPPE-600x375.png" alt="Variant 1" class="w-auto h-auto cursor-pointer rounded-lg">
-            <img onclick="changeImage('https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/CAPPUCCINO-600x375.png')" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/CAPPUCCINO-600x375.png" alt="Variant 2" class="w-auto h-auto cursor-pointer rounded-lg">
-            <img onclick="changeImage('https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/VANILLA-LATTE-600x375.png')" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/VANILLA-LATTE-600x375.png" alt="Variant 3" class="w-auto h-auto cursor-pointer rounded-lg">
-            <img onclick="changeImage('https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/OATMILK-LATTE-600x375.png')" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/OATMILK-LATTE-600x375.png" alt="Variant 4" class="w-auto h-auto cursor-pointer rounded-lg">
+            <img onclick="changeImage(this)" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/AREN-FRAPPE-600x375.png" alt="Variant 1" class="w-auto h-auto cursor-pointer rounded-lg thumbnail">
+            <img onclick="changeImage(this)" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/CAPPUCCINO-600x375.png" alt="Variant 2" class="w-auto h-auto cursor-pointer rounded-lg thumbnail">
+            <img onclick="changeImage(this)" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/VANILLA-LATTE-600x375.png" alt="Variant 3" class="w-auto h-auto cursor-pointer rounded-lg thumbnail">
+            <img onclick="changeImage(this)" src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/OATMILK-LATTE-600x375.png" alt="Variant 4" class="w-auto h-auto cursor-pointer rounded-lg thumbnail">
         </div>
 
         <!-- Produk Lainnya -->
@@ -100,9 +100,20 @@
         <p>&copy; 2024 ITTS COFFEE. All rights reserved.</p>
     </footer>
     <script>
-        function changeImage(newSrc) {
-            document.getElementById('mainImage').src = newSrc;
+        function changeImageWithTransition(thumbnail) {
+            var mainImage = document.getElementById('mainImage');
+            mainImage.style.opacity = 0;
+            setTimeout(function() {
+                mainImage.src = thumbnail.src;
+                mainImage.style.opacity = 1;
+            }, 300);
         }
+
+        document.querySelectorAll('.thumbnail').forEach(thumbnail => {
+            thumbnail.addEventListener('click', function() {
+                changeImageWithTransition(this);
+            });
+        });
     </script>
 </body>
 
