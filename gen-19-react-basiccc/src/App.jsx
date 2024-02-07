@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Menu from "./components/Menu";
-import Footer from "./components/Footer";
+import Navbar from "./layouts/Navbar";
+import Home from "./layouts/Home";
+import Menu from "./layouts/Menu";
+import Footer from "./layouts/Footer";
 
 const App = () => {
   return (

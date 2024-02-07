@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import Button from "../layouts/Button";
+import Button from "../components/Button";
 import logo from "../assets/img/logo.png"; 
 
 
