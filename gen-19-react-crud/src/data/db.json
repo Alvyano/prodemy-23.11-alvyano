@@ -1,0 +1,75 @@
+{
+    "products": [{
+            "id": 1,
+            "nama": "Kopi Susu Gula Aren",
+            "harga": "18.000",
+            "gambar": [
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/AREN-FRAPPE-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2024/01/CASHEW-DOUBLE-ESPRESSO_1-600x375.jpg",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2024/01/CASHEW-DOUBLE-ESPRESSO_1-600x375.jpg",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2024/01/PALM-SUGAR-CASHEW-FRAPPE-600x375.png"
+            ],
+            "deskripsi": "Nikmati kelezatan tradisional dengan sentuhan modern dalam secangkir Kopi Susu Gula Aren kami. Rasa kopi yang kuat dipadukan dengan kelembutan susu dan sentuhan manis gula aren menciptakan harmoni cita rasa yang memanjakan lidah. Sebuah pengalaman yang mengajak Anda merasakan kehangatan dan kenikmatan dalam setiap tegukan."
+        },
+        {
+            "id": 2,
+            "nama": "Cappucino",
+            "harga": "20.000",
+            "gambar": [
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/VANILLA-LATTE-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/OATMILK-CAPPUCCINO-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/LATTE-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/OATMILK-LATTE-600x375.png"
+            ],
+            "deskripsi": "Menyajikan cita rasa klasik Italia, Cappuccino kami adalah paduan sempurna antara espresso yang kuat, susu yang lembut, dan foam susu yang lezat. Setiap tegukan membawa kombinasi harmonis dari kepekatan kopi dan kelembutan susu, menciptakan pengalaman kopi yang memanjakan dengan setiap sorinya."
+        },
+        {
+            "id": "3",
+            "nama": "Strawberry Latte",
+            "harga": "23.000",
+            "gambar": [
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/07/WATERMELON_SHAKE-600x375.jpg",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/STRAWBERRY-SHAKE-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/STRAWBERRY-LATTE-1-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/07/WATERMELON_LATTE-600x375.jpg"
+            ],
+            "deskripsi": "Rasakan kesegaran buah strawberry dalam setiap tegukan Strawberry Latte kami. Kopi yang lembut dipadukan dengan susu dan sirup strawberry, menciptakan minuman yang manis dan menyegarkan. Pengalaman unik yang menggabungkan kelembutan dan kesegaran dalam setiap tegukan."
+        },
+        {
+            "id": "4",
+            "nama": "Americano",
+            "harga": "15.000",
+            "gambar": [
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/AMERICANO-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/SPARKLING-ESPRESSO-1-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/SPARKLING-ESPRESSO-LEMON-1-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/SPARKLING-ESPRESSO-LYCHEE-1-600x375.png"
+            ],
+            "deskripsi": "Americano kami adalah pilihan ideal bagi pencinta kopi yang mencari kesederhanaan dan kekuatan rasa. Dibuat dengan menambahkan air panas ke espresso, Americano memberikan kekekalan rasa kopi yang kuat dengan sentuhan ringan. Pengalaman kopi yang sederhana namun memuaskan."
+        },
+        {
+            "id": "5",
+            "nama": "Chocolatte",
+            "harga": "23.000",
+            "gambar": [
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/CHOCO-BLISS-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2021/03/CHOCO-HAZELNUT-LATTE-600x375.jpg",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2021/03/CHOCO-HAZELNUT-SHAKE-600x375.jpg",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/FLASH-CHOCOLATE-600x375.png"
+            ],
+            "deskripsi": "Cokelat dan kopi bertemu dalam secangkir Chocolatte kami. Paduan manisnya cokelat dengan kekuatan kopi menciptakan rasa yang memanjakan lidah. Minuman ini adalah pilihan sempurna untuk mereka yang mencari kombinasi unik antara kehangatan kopi dan kenikmatan cokelat dalam setiap tegukan."
+        },
+        {
+            "id": "6",
+            "nama": "Avocado Coffee",
+            "harga": "23.000",
+            "gambar": [
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/AVO-SHAKE-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/MATCHA-MACADAMIA-SHAKE-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/MATCHA-LATTE-600x375.png",
+                "https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/05/COCONUT-MATCHA-SHAKE-1-600x375.jpg"
+            ],
+            "deskripsi": "Avocado Coffee kami menghadirkan kombinasi unik antara kopi yang kuat dan kelembutan alpukat. Rasa creamy dari alpukat dipadukan dengan intensitas kopi menciptakan harmoni yang luar biasa. Nikmati kelezatan yang luar biasa dan kesehatan dalam setiap tegukan Avocado Coffee."
+        }
+    ]
+}
