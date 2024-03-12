@@ -1,12 +1,10 @@
-# Kamu Baca Aku Ya?
+# React + Vite
 
-Pertanyaan:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-1. Kalo penulisan inputan parameter itu baiknya
-   "<ProdukDetail {...dataProduk}/>"
-   atau
-   "<ProdukDetail data={dataProduk}/>"
-   atau
-   "<ProductCard nama={dataProduk.nama} image={dataProduk.gambar[0]} price={`$${dataProduk.harga}`} />"
+Currently, two official plugins are available:
 
-2. Masalah Looping Buat Bikin Array Warna
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Tugas
